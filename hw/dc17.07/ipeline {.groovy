@@ -30,7 +30,7 @@ ipeline {
 
       }
     }
-
+we
     stage('Run docker on devbe-srv01') {
       steps {
         sh 'ssh-keyscan -H devbe-srv01 >> ~/.ssh/known_hosts'
